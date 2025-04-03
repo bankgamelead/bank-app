@@ -99,12 +99,12 @@ COGNITO_USER_POOL_ID=your-user-pool-id
 src/
 ├── app/
 │   ├── api/                # API routes for server-side logic
-│   ├── components/         # Reusable React components
 │   ├── dashboard/          # Dashboard-related pages and components
 │   ├── utils/              # Utility functions
 │   ├── middleware.ts       # Middleware for authentication
 │   ├── layout.tsx          # Root layout for the application
 │   └── page.tsx            # Landing page
+├── components/             # Reusable React components
 ├── lib/                    # Shared libraries and actions
 ├── types/                  # TypeScript type definitions
 ```
